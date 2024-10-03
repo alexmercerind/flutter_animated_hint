@@ -1,7 +1,14 @@
 name: animated_hint
 description: "A flutter package that animates the TextField hint"
 version: 0.0.1
-homepage:
+homepage: https://github.com/iamdipanshusingh/flutter_animated_hint
+repository: https://github.com/iamdipanshusingh/flutter_animated_hint
+issue_tracker: https://github.com/iamdipanshusingh/flutter_animated_hint/issues
+topics:
+  - "flutter"
+  - "field"
+  - "ui"
+  - "textfield"
 
 environment:
   sdk: ^3.5.3
