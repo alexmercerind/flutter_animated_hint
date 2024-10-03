@@ -1,6 +1,8 @@
-# Animated Hint TextField
+# Animated Hint
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Version](https://img.shields.io/badge/version-0.0.1-orange.svg)
+
+![Screen-Recording-2024-10-03-at-5 26 49 AM](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW0waWZxdmUzNGF5ZGw5bDB3Z2xjM3JzYjBzMnp1ZmF2eW5xdTI3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0yhni93xTR5PGKvyj/giphy.gif)
 
 ## Table of Contents
 
@@ -49,10 +51,7 @@ class MyApp extends StatelessWidget {
           child: AnimatedHintTextField(
             fixedHint: "Search",
             hints: const ['\"Flights\"', '\"Accounts\"'],
-            animationType: _animationType,
-            onTapOutside: (_) {
-              FocusScope.of(context).unfocus();
-            },
+            animationType: AnimationType.slide,
           ),
         ),
       ),
@@ -60,6 +59,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
 
 ## API Reference
 
