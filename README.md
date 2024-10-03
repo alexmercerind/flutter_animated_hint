@@ -17,7 +17,7 @@
 
 ## Description
 
-The **Animated Hint TextField** package allows you to animate the hint of a TextView effortlessly. Unlike other packages, this package provides a unique way to enhance the user experience by animating the hint, making your text input fields more interactive and visually appealing.
+The **Animated Hint** package allows you to animate the hint of a TextView effortlessly. This package provides a unique way to enhance the user experience by animating the hint, making your text input fields more interactive and visually appealing.
 
 ## Getting Started
 
@@ -64,8 +64,6 @@ class MyApp extends StatelessWidget {
 ## API Reference
 
 ### AnimatedHintTextField
-
-The main class in this package.
 
 - **Properties**:
   - `fixedHint`: This part of hint will remain fixed and will not animate
