@@ -17,7 +17,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  animated_text_kit: ^4.2.2
+  animated_text_kit:
+    git:
+      url: git@github.com:farmako/Animated-Text-Kit.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

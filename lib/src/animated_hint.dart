@@ -414,6 +414,8 @@ class AnimatedHintTextField extends StatelessWidget {
         textStyle: hintTextStyle ?? style,
         alignment: Alignment.centerLeft,
         textAlign: TextAlign.start,
+        holdDuration: const Duration(seconds: 1),
+        animationDuration: const Duration(milliseconds: 300),
       );
     }).toList();
   }
